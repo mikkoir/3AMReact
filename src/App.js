@@ -25,12 +25,13 @@ import PropTypes from 'prop-types';
 const theme = createMuiTheme({
         palette: {
             secondary: {
-                main: '#f57c00'
+                main: '#7e57c2'
             },
             primary: {
-                main: '#33691e'
-            }
-        }
+                main: '#424242'
+            },
+        },
+
     },
 );
 
@@ -127,7 +128,6 @@ class App extends Component {
                                 <Logout {...props} setUserLogout={this.setUserLogout}/>
                             )}/>
                         </Grid>
-
                     </Grid>
                 </MuiThemeProvider>
             </Router>

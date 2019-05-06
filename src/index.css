@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: darkgray;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -25,6 +26,28 @@ table {
 
 td {
   border-bottom: 1px solid #ccc;
+}
+
+.MuiTypography-h2-147{
+  width: 30%;
+}
+.MuiListItem-button-179{
+  width: 50%;
+}
+.MuiButton-colorInherit-191{
+  position: absolute !important;
+  right: 0;
+  top:12px;
+  width: 10%;
+}
+.MuiGrid-item-2{
+  margin-right: 50px;
+}
+.MuiGrid-grid-sm-2-45{
+  background-color: rgba(0,0,0,0.3);
+  margin-right: 50px !important;
+  height: 100%;
+
 }
 
 td:last-child {

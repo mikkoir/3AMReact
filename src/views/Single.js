@@ -46,7 +46,7 @@ class Single extends Component {
           {media_type.includes('image') &&
           <img src={this.mediaUrl + filename}
                alt={title}
-               style={{height: 50, width:50, filter: `brightness(${brightness}%) contrast(${contrast}%) sepia(${warmth}%) saturate(${saturation}%)`}}
+               style={{height: 500, width:500, filter: `brightness(${brightness}%) contrast(${contrast}%) sepia(${warmth}%) saturate(${saturation}%)`}}
           />
           }
           {media_type.includes('video') &&
