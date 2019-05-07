@@ -44,8 +44,10 @@ td {
   margin-right: 50px;
 }
 .MuiGrid-grid-sm-2-45{
-  background-color: rgba(0,0,0,0.3);
-  margin-right: 50px !important;
+  background: rgb(108,0,99);
+  background: linear-gradient(90deg, rgba(108,0,99,0.5) 0%, rgba(126,87,194,1) 57px, rgba(97,102,103,0.5) 6%);
+  /*background-color: rgba(0,0,0,0.3); */
+  margin-right: 8% !important;
   height: 100%;
 
 }
