@@ -28,8 +28,8 @@ const getFiltersToGrid = (tile) => {
 
 const ImageGrid = (props) => {
   return (
-      <GridList>
-        <GridListTile key="Subheader" cols={2} style={{height: 'auto'}}>
+      <GridList cols={3}>
+        <GridListTile key="Subheader" cols={3} style={{height: 'auto'}}>
           <ListSubheader component="div">Files</ListSubheader>
         </GridListTile>
         {props.picArray.map(tile => (

@@ -11,17 +11,16 @@ import Grid from '@material-ui/core/Grid';
 import Upload from './views/Upload';
 import MyFiles from './views/MyFiles';
 import Modify from './views/Modify';
+import AppiBar from './components/AppiBar';
 import AppBar from '@material-ui/core/AppBar';
 //import Button from '@material-ui/core/Button';
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
-import AppiBar from './components/AppiBar';
 import Typography from '@material-ui/core/Typography';
 import Commission from "./views/Commission";
 import {ListItem, ListItemIcon, ListItemText} from "@material-ui/core";
 import {ExitToApp} from "@material-ui/icons";
 import PropTypes from 'prop-types';
 
-const tester;
 const theme = createMuiTheme({
         palette: {
             secondary: {
