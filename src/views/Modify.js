@@ -131,13 +131,11 @@ class Modify extends Component {
                            fullWidth
                            multiline
                            rows={3}/>
-            <Button type="submit" variant="contained"
+            <Button style={{marginTop:10}} type="submit" variant="contained"
                     color="primary">Save&nbsp;&nbsp;{this.state.loading &&
             <CircularProgress size={20} color="secondary"/>}</Button>
           </ValidatorForm>
-          {this.state.file.filename !== undefined &&
-          < ImageEditor state={this.state} updateFilters={this.updateFilters}/>
-          }
+
         </React.Fragment>
     );
   }

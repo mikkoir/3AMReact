@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
+import logo from './3AMrgbScaled.png';
 import {List, ListItem, ListItemIcon, ListItemText} from '@material-ui/core';
 import {Home, AccountBox, ExitToApp, AddCircle, Folder, Assignment} from '@material-ui/icons';
 import ImageGrid from "./ImageGrid";
@@ -17,7 +18,9 @@ const AppiBar = (props) => {
             <AppBar position="static" color='primary'>
 
                 <Typography variant="h2" display="flex">
-                    3AM
+                    <Link to="/home">
+                    <img src={logo}  style={{width:70, height:70, borderRadius: 50, marginLeft:20, marginTop:6, marginBottom:-4}}/>
+                    </Link>
                 </Typography>
 
                 {props.checkLogin() &&

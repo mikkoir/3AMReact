@@ -91,12 +91,14 @@ class App extends Component {
                 <MuiThemeProvider theme={theme}>
 
                     <Grid container>
+
                         <Grid item sm={12}>
                             <AppiBar checkLogin={this.checkLogin}/>
                         </Grid>
                         <Grid item sm={2}>
                             <Nav checkLogin={this.checkLogin}/>
                         </Grid>
+
                         <Grid item sm={8}>
                             <Route path="/home" render={(props) => (
                                 <Front {...props} picArray={this.state.picArray}/>

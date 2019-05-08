@@ -125,7 +125,7 @@ class Upload extends Component {
                        type="file"
                        onChange={this.handleFileChange}
                        fullWidth/>
-            <Button type="submit" variant="contained"
+            <Button style={{marginTop:10}} type="submit" variant="contained"
                     color="primary">Upload&nbsp;&nbsp;{this.state.loading &&
             <CircularProgress size={20} color="secondary"/>}</Button>
           </ValidatorForm>

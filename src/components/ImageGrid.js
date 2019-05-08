@@ -30,10 +30,10 @@ const ImageGrid = (props) => {
   return (
       <GridList cols={3}>
         <GridListTile key="Subheader" cols={3} style={{height: 'auto'}}>
-          <ListSubheader component="div">Files</ListSubheader>
+
         </GridListTile>
         {props.picArray.map(tile => (
-            <GridListTile key={tile.file_id}>
+            <GridListTile key={tile.file_id} style={{marginTop:20}}>
               {tile.media_type === 'image' &&
               <img src={mediaUrl + tile.thumbnails.w160} alt={tile.title}
                    style={getFiltersToGrid(tile)}/>

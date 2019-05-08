@@ -35,13 +35,6 @@ const Nav = (props) => {
               <ListItemText primary="Profile"/>
             </ListItem>
 
-              <ListItem button component={Link} to="/commission">
-                  <ListItemIcon>
-                      <Assignment/>
-                  </ListItemIcon>
-                  <ListItemText primary="Commission"/>
-              </ListItem>
-
           </React.Fragment>
           }
 
